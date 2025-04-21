@@ -5,33 +5,63 @@ Imagine a platform that gives you a detailed personalized roadmap along with res
 
 ## Installation
 
+# AI-Powered Personalized Learning Platform
+
+**Team Name:** Neural Nomads  
+**Team Number:** 10  
+**Course:** ITCS-6112 SSDI Project Deliverable  
+**Document:** User Manual
+
+---
+
+## 🚀 Deployment / Installation Steps
+
+### 🔧 Prerequisites
+
+Ensure the following are installed:
+- Node.js and npm
+- Python (preferably 3.8+)
+- pip
+- MongoDB (for persistent data storage)
+- An OpenAI Gemini API Key (for AI-based recommendations)
+
+---
+
+### 🧪 Installation Steps
+
+1. **Clone the Repository**
+```bash
+git clone https://github.com/HemantKumar01/AIPersonalizedLearningPlatform.git
+cd AIPersonalizedLearningPlatform
+```
 ```bash
 npm install
-cd backend
-.\humanaize\Scripts\activate #or for linux humanaize/bin/activate
-pip install -r requirements.txt
-cd ..
 ```
+```bash
+cd backend
 
-## Usage 
-create `.env` file in `./backend/` directory with the following contents (get your api key from [here](https://ai.google.dev/aistudio) )
+# For Windows
+.\humanaize\Scripts\activate
+
+# For Linux/Mac
+source humanaize/bin/activate
+
+pip install -r requirements.txt
+```
 ```bash
 GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 ```
-then to start backend
 ```bash
 npm run backend
 ```
-and to start frontend
 ```bash
 npm start
 ```
 ![alt text](public/image.png)
 ![alt text](public/image-1.png)
 ![alt text](public/image-2.png)
-## Demo Video
-[https://www.youtube.com/watch?v=v-dP18RBArc](https://www.youtube.com/watch?v=v-dP18RBArc)
-[![Demo Video Link](http://img.youtube.com/vi/v-dP18RBArc/0.jpg)](http://www.youtube.com/watch?v=v-dP18RBArc "LearnX : AI based Personalized Learning | Humanaize Hackathon EdTech Edition. Demo Video")
+
+
 
 ## What Exactly will this Platform do?
 We are creating a web based platform, where users can get personalized roadmaps along with resources to learn something new. The platform will also track and visualize progress of the user.
