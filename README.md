@@ -57,12 +57,6 @@ npm run backend
 ```bash
 npm start
 ```
-![alt text](public/image.png)
-![alt text](public/image-1.png)
-![alt text](public/image-2.png)
-
-
-
 ## What Exactly will this Platform do?
 We are creating a web based platform, where users can get personalized roadmaps along with resources to learn something new. The platform will also track and visualize progress of the user.
 
@@ -74,3 +68,10 @@ Generative AI will be incorporated to create roadmaps, schedules and quizzes alo
 The flow of the solution can be understood by the following simplified user flow diagram
 
 ![alt text](public/process_flow.png)
+
+![alt text](public/image.png)
+![alt text](public/image-1.png)
+![alt text](public/image-2.png)
+
+
+
