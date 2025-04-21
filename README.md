@@ -16,7 +16,7 @@ Imagine a platform that gives you a detailed personalized roadmap along with res
 
 ## 🚀 Deployment / Installation Steps
 
-### 🔧 Prerequisites
+### 🔧 Step 1: Install Prerequisites
 
 Ensure the following are installed:
 - Node.js and npm
@@ -27,33 +27,61 @@ Ensure the following are installed:
 
 ---
 
-### 🧪 Installation Steps
+### 🧪 Step 2: Clone the Project
 
-1. **Clone the Repository**
 ```bash
-git clone https://github.com/HemantKumar01/AIPersonalizedLearningPlatform.git
+git clone https://github.com/Surya-17/AI-Powered-Personalized-Learning-System.git
 cd AIPersonalizedLearningPlatform
 ```
+### Step 3: Install Frontend Dependencies
+1. Open Command Prompt or PowerShell
+2. Navigate to your project root folder:
+```bash
+cd E:\Spring25\SSDI\Project\Project\AIPersonalizedLearningPlatform-main
+```
+3. Run: 
 ```bash
 npm install
 ```
+That installs everything needed for the frontend.
+
+### Step 4: Set Up the Backend
+1. Go into the backend folder:
 ```bash
 cd backend
-
+```
+2. Create and activate the virtual environment:
+```bash
 # For Windows
+python -m venv humanaize
 .\humanaize\Scripts\activate
 
 # For Linux/Mac
+python3 -m venv humanaize
 source humanaize/bin/activate
-
+```
+3. Install backend dependencies:
+```bash
 pip install -r requirements.txt
 ```
+### Step 5: Create .env File
+In the backend folder, create a file named .env with this content:
 ```bash
 GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 ```
+Replace YOUR_GEMINI_API_KEY with your actual API key from Google’s Gemini/PaLM.
+### Step 6: Start the Backend
+Still inside backend and with the virtual env active, run:
 ```bash
 npm run backend
 ```
+### Step 7: Start the Frontend
+1. Open a new terminal window.
+2. Go back to your frontend root:
+```bash
+cd AI-Powered-Personalized-Learning-System
+```
+3. Start the frontend:
 ```bash
 npm start
 ```
